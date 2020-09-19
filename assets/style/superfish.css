@@ -1,0 +1,173 @@
+ul#mainnav li ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul#mainnav li ul {
+	line-height:1.0;
+}
+
+ul#mainnav li {
+	overflow:hidden;
+}
+
+ul#mainnav li ul {
+	position:absolute;
+	width:200px; /* left offset of submenus need to match (see below) */
+	top:60px;
+	left:20px;
+	padding-top:0px;
+	z-index:3000;
+}
+
+ul#mainnav li ul li {
+	width:100%;
+}
+
+ul#mainnav li ul li:hover {
+	visibility:inherit; /* fixes IE7 'sticky bug' */
+}
+
+ul#mainnav li ul li {
+	float:left;
+	position:relative;
+	z-index:980;
+}
+
+ul#mainnav li ul li a {
+	display:block;
+	position:relative;
+	font-size:12px;
+}
+
+ul#mainnav li ul li:hover ul,
+ul#mainnav li ul li.sfHover ul {
+	left:200px;
+	top:0px; /* match top ul list item height */
+	z-index:99;
+}
+
+ul#mainnav li ul li:hover li ul,
+ul#mainnav li ul li.sfHover li ul {
+	top:-999em;
+}
+
+ul#mainnav li ul li li:hover ul,
+ul#mainnav li ul li li.sfHover ul {
+	left:200px; /* match ul width */
+	top:0;
+}
+
+ul#mainnav li ul li li:hover li ul,
+ul#mainnav li ul li li.sfHover li ul {
+	top:-999em;
+}
+
+ul#mainnav li ul li ul {
+	position:absolute;
+	width:200px;
+	left:200px;
+	top:-1px;
+	padding-top:0px;
+}
+
+ul#mainnav li ul li ul li:hover ul,
+ul#mainnav li ul li ul li.sfHover ul {
+	left:200px; /* match ul width */
+	top:0;
+}
+
+ul#mainnav li.sfHover a {
+
+}
+
+.sf-shadow ul {
+
+}
+
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			0;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url(/web/20180826183601im_/http://renovationconstruxionlepage.com/static/images/nav-arrows.png) no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+#mainnav > li > a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:12px;
+	right:-2px;
+	background-position: 0 -97px; /* use translucent arrow for modern browsers*/
+}
+
+#mainnav > li > ul > li a.sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			12px;
+	background-position: 0 -97px; /* use translucent arrow for modern browsers*/
+}
+
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -97px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+#mainnav li ul li a span.sf-sub-indicator { background-position:  0 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+#mainnav > li > a.sf-with-ul {
+	padding-right: 14px;
+	min-width: 1px;
+}
+
+
+
+/*** shadows for all but IE6 ***/
+ul#mainnav li ul {
+	background:	url('/web/20180826183601im_/http://renovationconstruxionlepage.com/static/images/shadow.png') no-repeat bottom right;
+	padding: 0 6px 7px 0;
+
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+
+/*
+     FILE ARCHIVED ON 18:36:01 Aug 26, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:40:51 Sep 17, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.datanode: 1474.271 (5)
+  load_resource: 1083.57 (2)
+  LoadShardBlock: 845.949 (3)
+  RedisCDXSource: 190.646
+  exclusion.robots: 0.125
+  esindex: 0.008
+  CDXLines.iter: 34.044 (3)
+  PetaboxLoader3.resolve: 341.535 (2)
+  exclusion.robots.policy: 0.116
+  captures_list: 1074.28
+*/

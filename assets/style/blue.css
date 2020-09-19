@@ -1,0 +1,175 @@
+#wrapper {
+	border-top:3px solid #30b4c5;
+}
+
+a {
+	color:#30b4c5;
+}
+
+.intro a {
+	color:#30b4c5;
+}
+
+.team-text h6  {
+	color:#30b4c5;
+}
+
+.testimonial-meta h5 {
+	color:#30b4c5;
+}
+
+span.caption a:hover {
+	color:#30b4c5;
+}
+
+.widget a:hover {
+	color:#30b4c5;
+}
+
+.featured-sidebar ul li.selected a {
+	color:#30b4c5;
+}
+
+ul.tags a:hover {
+	color:#30b4c5;
+}
+
+.authorp h2 a:hover {
+	color:#30b4c5;
+}
+
+.comment a:hover {
+	color:#30b4c5;
+}
+
+#toggle-view li.activated h3 {
+	color:#30b4c5;
+}
+
+
+ul#filters li a:hover {
+	color:#fff;
+	background:#30b4c5;
+}
+
+ul#filters li.selected a {
+	color:#fff;
+	background:#30b4c5;	
+}
+
+.portfolio h3 a:hover {
+	color:#30b4c5;
+}
+
+h2.post-title a:hover, .meta a:hover {
+	color:#30b4c5;
+}
+
+.pagenav a:hover {
+    background:#30b4c5;
+    color:#fff;
+}
+
+span.current {
+    background:#30b4c5; 
+}
+
+#footer a:hover {
+	color:#30b4c5;
+}
+
+.featured-column .package-title {
+	border-bottom:3px solid #30b4c5;	
+}
+
+ul#mainnav li a:hover, ul#mainnav li a:active, ul#mainnav li a.current {
+	border-bottom:1px solid #30b4c5;
+}
+
+.nav-first-item {
+	border-top:1px solid #30b4c5;
+}
+
+a.service-more {
+	float:right;
+	background:url(../img/btn-arrow.png) no-repeat 95% 5px;
+	display:inline-block;
+	padding-right:20px;		
+	-webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    transition:all 0.2s linear;		
+}
+
+a.service-more:hover {
+	background:url(../img/btn-arrow-on.png) no-repeat 95% 5px;
+	color:#444;
+}
+
+.more-btn {
+	display:block;
+	background:url(../img/btn-arrow.png) no-repeat scroll center right;
+	padding-right:15px;
+	float:right;
+	-webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    transition:all 0.2s linear;		
+}
+
+.more-btn:hover {
+	background:url(../img/btn-arrow-on.png) no-repeat center right;
+	color:#444;	
+}
+
+
+.toggle-plus {
+	background:url(../img/plus.png) no-repeat scroll right center;
+	width:21px;
+	height:21px;
+}
+
+.toggle-minus {
+	background:url(../img/minus.png) no-repeat scroll right center;
+	width:21px;
+	height:21px;
+}
+
+.previous-post-link a {
+	background:url(../img/arrow-prev-hover.png) no-repeat scroll 0 0;	
+}
+
+.previous-post-link a:hover {
+	background:url(../img/arrow-prev.png) no-repeat scroll 0 0;	
+}	
+
+.next-post-link a {
+	background:url(../img/arrow-next-hover.png) no-repeat scroll 0 0;
+	margin-left:1px;
+}
+
+.next-post-link a:hover {
+	background:url(../img/arrow-next.png) no-repeat scroll 0 0;	
+}	
+ 
+/*
+     FILE ARCHIVED ON 19:26:11 Aug 26, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:40:49 Sep 17, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.206
+  captures_list: 348.343
+  exclusion.robots.policy: 0.19
+  PetaboxLoader3.datanode: 407.538 (5)
+  RedisCDXSource: 26.713
+  PetaboxLoader3.resolve: 674.678 (2)
+  CDXLines.iter: 24.374 (3)
+  esindex: 0.016
+  LoadShardBlock: 292.999 (3)
+  load_resource: 866.655 (2)
+*/
