@@ -460,7 +460,10 @@ jQuery(function() {
 
     $("#contactform form").submit(function (e) {
         e.preventDefault();
-        $.post($(this).attr("action"), $(this).serialize()).then(function () {
+        var $form = $(this);
+
+        $.post($form.attr("action"), $form.serialize()).then(function () {
+            $form.reset();
             $('#message').append('<p><span style="margin: 20px 0;padding: 7px 11px 7px;display:block;" class="yellow">Merci nous avons bien reçu votre message.</span></p>')
         });
     });
