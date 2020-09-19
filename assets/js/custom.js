@@ -455,30 +455,18 @@ jQuery(function() {
 				
         });
 		
-    }); 
-		
+    });
+
+
+    $("#contactform").submit(function (e) {
+        e.preventDefault();
+
+        var $form = $(this);
+        $.post($form.attr("action"), $form.serialize()).then(function () {
+            alert("Merci nous avons bien reçu votre message!");
+        });
+    });
 });
 
 
 }
-/*
-     FILE ARCHIVED ON 18:54:14 Aug 26, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 20:40:54 Sep 17, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  LoadShardBlock: 273.324 (3)
-  esindex: 0.015
-  exclusion.robots.policy: 0.256
-  CDXLines.iter: 23.353 (3)
-  exclusion.robots: 0.278
-  RedisCDXSource: 21.674
-  load_resource: 825.747 (2)
-  PetaboxLoader3.datanode: 401.718 (5)
-  captures_list: 323.156
-  PetaboxLoader3.resolve: 558.531 (2)
-*/

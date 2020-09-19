@@ -89,28 +89,23 @@
             <h6>REMPLISSEZ LE FORMULAIRE CI-DESSOUS:</h6>
             <div id="contactform">
                 <div id="message"></div>
-                <form method="post"
-                      action="#"
-                      name="contactform" class="form" data-netlify="true">
+                <form method="post" action="#" name="contactform" class="form" data-netlify="true">
                     <fieldset class="percent-one-third">
                         <label for="name" accesskey="U"><span class="required">*</span> Nom:</label>
-
-                        <input name="name" type="text" id="name" value="">
+                        <input name="name" type="text" id="name" value="" required>
                     </fieldset>
                     <fieldset class="percent-one-third">
                         <label for="email" accesskey="E"><span class="required">*</span> Courriel:</label>
-
-                        <input name="email" type="text" id="email" value="">
+                        <input name="email" type="text" id="email" value="" required>
                     </fieldset>
                     <fieldset class="percent-one-third column-last">
-                        <label for="subject" accesskey="P"><span class="required">*</span> Sujet:</label>
-
+                        <label for="subject" accesskey="P">Sujet:</label>
                         <input name="subject" type="text" id="subject" value="">
                     </fieldset>
                     <fieldset class="clear">
                         <label for="comments" accesskey="C"><span class="required">*</span> Message:</label>
 
-                        <textarea name="comments" id="comments" rows="8" cols="1"
+                        <textarea required name="comments" id="comments" rows="8" cols="1"
                                   style="min-height:150px; width: 96%;"></textarea>
                     </fieldset>
                     <fieldset>
