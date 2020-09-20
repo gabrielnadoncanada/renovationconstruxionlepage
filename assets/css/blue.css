@@ -92,7 +92,7 @@ ul#mainnav li a:hover, ul#mainnav li a:active, ul#mainnav li a.current {
 
 a.service-more {
 	float:right;
-	background:url(../img/btn-arrow.png) no-repeat 95% 5px;
+	background:url(assets/img/btn-arrow.png) no-repeat 95% 5px;
 	display:inline-block;
 	padding-right:20px;		
 	-webkit-transition:all 0.2s linear;
@@ -108,7 +108,7 @@ a.service-more:hover {
 
 .more-btn {
 	display:block;
-	background:url(../img/btn-arrow.png) no-repeat scroll center right;
+	background:url(assets/img/btn-arrow.png) no-repeat scroll center right;
 	padding-right:15px;
 	float:right;
 	-webkit-transition:all 0.2s linear;
@@ -151,25 +151,3 @@ a.service-more:hover {
 .next-post-link a:hover {
 	background:url(../img/arrow-next.png) no-repeat scroll 0 0;	
 }	
- 
-/*
-     FILE ARCHIVED ON 19:26:11 Aug 26, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 20:40:49 Sep 17, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.206
-  captures_list: 348.343
-  exclusion.robots.policy: 0.19
-  PetaboxLoader3.datanode: 407.538 (5)
-  RedisCDXSource: 26.713
-  PetaboxLoader3.resolve: 674.678 (2)
-  CDXLines.iter: 24.374 (3)
-  esindex: 0.016
-  LoadShardBlock: 292.999 (3)
-  load_resource: 866.655 (2)
-*/

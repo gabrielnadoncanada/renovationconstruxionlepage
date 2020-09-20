@@ -99,7 +99,7 @@ ul#mainnav li.sfHover a {
 	height:			10px;
 	text-indent: 	-999em;
 	overflow:		hidden;
-	background:		url(/web/20180826183601im_/http://renovationconstruxionlepage.com/static/images/nav-arrows.png) no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+	background:		url(../img/nav-arrows.png) no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
 }
 #mainnav > li > a > .sf-sub-indicator {  /* give all except IE6 the correct values */
 	top:12px;
@@ -142,32 +142,10 @@ li.sfHover > a > .sf-sub-indicator {
 
 /*** shadows for all but IE6 ***/
 ul#mainnav li ul {
-	background:	url('/web/20180826183601im_/http://renovationconstruxionlepage.com/static/images/shadow.png') no-repeat bottom right;
+	background:	url('../img/shadow.png') no-repeat bottom right;
 	padding: 0 6px 7px 0;
 
 }
 .sf-shadow ul.sf-shadow-off {
 	background: transparent;
 }
-
-/*
-     FILE ARCHIVED ON 18:36:01 Aug 26, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 20:40:51 Sep 17, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  PetaboxLoader3.datanode: 1474.271 (5)
-  load_resource: 1083.57 (2)
-  LoadShardBlock: 845.949 (3)
-  RedisCDXSource: 190.646
-  exclusion.robots: 0.125
-  esindex: 0.008
-  CDXLines.iter: 34.044 (3)
-  PetaboxLoader3.resolve: 341.535 (2)
-  exclusion.robots.policy: 0.116
-  captures_list: 1074.28
-*/

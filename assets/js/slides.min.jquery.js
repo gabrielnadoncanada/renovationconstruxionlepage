@@ -312,7 +312,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 				position: 'relative'
 			});
 			
-			// set css for slides
+			// set font.css for slides
 			control.children().css({
 				position: 'absolute',
 				top: 0, 
@@ -321,7 +321,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 				display: 'none'
 			 });
 			
-			// set css for control div
+			// set font.css for control div
 			control.css({
 				position: 'relative',
 				// size of control 3 x slide width

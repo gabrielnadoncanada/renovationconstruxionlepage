@@ -1,0 +1,40 @@
+
+root { 
+    display: block;
+}
+
+.error_message {
+    background-image: url('../img/err.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    list-style-type: none;
+    color: #C00 !important;
+    background-color: #F3CAC7;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 6px 0 0;
+    padding: 4px 10px 4px 30px;
+    font: 12px Arial, Helvetica, Verdana, Geneva, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.success_message {
+        background-image: url('../img/success.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    list-style-type: none;
+    color: green !important;
+    background-color: #c5f6c4;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 6px 0 0;
+    padding: 4px 10px 4px 30px;
+    font: 12px Arial, Helvetica, Verdana, Geneva, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}

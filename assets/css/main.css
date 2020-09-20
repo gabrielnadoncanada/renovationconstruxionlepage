@@ -117,7 +117,7 @@ input,textarea {
 
 body {
 	font: 12px/20px Open Sans, Helvetica, Arial, sans-serif;
-	background:#efefef url('../img/bg1.jpg') repeat scroll 0 0;
+	background:#efefef url('assets/img/bg1.jpg') repeat scroll 0 0;
 	margin:0;
 	padding:0;
 	color:#686868;
@@ -996,7 +996,7 @@ h3.service {
 	display:block;
 	width:25px;
 	height:25px;
-	background:url(../img/arrows.png) no-repeat;
+	background:url(assets/img/arrows.png) no-repeat;
 	text-indent:-9999px;
 	border:0;
 	position:absolute;
@@ -1134,7 +1134,7 @@ a[rel="PrettyPhoto"] {
     width: 25px;
     height: 25px;
     cursor: pointer;
-    background: transparent url(../img/next-horizontal.png) no-repeat 0 0;
+    background: transparent url(assets/img/next-horizontal.png) no-repeat 0 0;
 }
 
 .jcarousel-next-horizontal:hover,
@@ -1161,7 +1161,7 @@ a[rel="PrettyPhoto"] {
     width: 25px;
     height: 25px;
     cursor: pointer;
-    background: transparent url(../img/prev-horizontal.png) no-repeat 0 0;
+    background: transparent url(assets/img/prev-horizontal.png) no-repeat 0 0;
 }
 
 .jcarousel-prev-horizontal:hover, 
@@ -1249,7 +1249,7 @@ a.lightbox {
 	right:25px;
 	width:25px;
 	height:25px;
-	background:url(../img/lightbox.png) no-repeat scroll 0 0;
+	background:url(assets/img/lightbox.png) no-repeat scroll 0 0;
 	text-indent:-9999px;
 }
 
@@ -1262,7 +1262,7 @@ span.item-on-hover {
 	position: absolute; 
 	width: 100%; 
 	height: 100%; 
-	background: url(../img/item-on-hover.png) repeat; 
+	background: url(assets/img/item-on-hover.png) repeat;
 }
 
 .item-on-hover *{
@@ -1284,7 +1284,7 @@ span.hover-link {
 }
 
 span.hover-image {
-	background:url(../img/lightbox.png) no-repeat scroll 0 0;
+	background:url(assets/img/lightbox.png) no-repeat scroll 0 0;
 	width:35px;
 	height:35px;
 	top: 50%;
@@ -2004,15 +2004,15 @@ li.address {
 }
 
 li.rbq {
-	background:url(../img/rbq.png) no-repeat scroll 0 2px;
+	background:url(assets/img/rbq.png) no-repeat scroll 0 2px;
 }
 
 li.phone {
-	background:url(../img/phone.png) no-repeat scroll 0 2px;
+	background:url(assets/img/phone.png) no-repeat scroll 0 2px;
 }
 
 li.email {
-	background:url(../img/email.png) no-repeat scroll 0 2px;
+	background:url(assets/img/email.png) no-repeat scroll 0 2px;
 }
 
 #footer a {
@@ -2164,7 +2164,7 @@ a.skype {
 	background:url(../img/skype.png) no-repeat scroll 0 0;
 }
 a.facebook {
-	background:url(../img/facebook.png) no-repeat scroll 0 0;
+	background:url(assets/img/facebook.png) no-repeat scroll 0 0;
 }
 a.twitter {
 	background:url(../img/twitter.png) no-repeat scroll 0 0;

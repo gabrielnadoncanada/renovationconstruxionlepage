@@ -1737,7 +1737,7 @@
 	
 	.featured-sidebar ul li.selected {
 		width:180px;
-		background: url(/web/20180826193740im_/http://renovationconstruxionlepage.com/static/images/featured-arrow.png) no-repeat scroll 165px center;		
+		background: url(../img/featured-arrow.png) no-repeat scroll 165px center;
 	}	
 	
 	.featured-sidebar ul li.selected a {
@@ -1946,25 +1946,3 @@
 	}
 
 }
-
-/*
-     FILE ARCHIVED ON 19:37:40 Aug 26, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 20:40:51 Sep 17, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  esindex: 0.014
-  exclusion.robots.policy: 0.119
-  PetaboxLoader3.datanode: 2245.107 (5)
-  PetaboxLoader3.resolve: 204.875 (3)
-  captures_list: 2349.018
-  RedisCDXSource: 116.312
-  load_resource: 345.566 (2)
-  CDXLines.iter: 17.055 (3)
-  LoadShardBlock: 2212.785 (3)
-  exclusion.robots: 0.128
-*/
