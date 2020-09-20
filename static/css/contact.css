@@ -1,0 +1,48 @@
+/* 
+    Document   : contact
+    Created on : 26-oct.-2012, 14:37:30
+    Author     : Cédric Rojo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.error_message {
+    background-image: url('../images/err.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    list-style-type: none;
+    color: #C00 !important;
+    background-color: #F3CAC7;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 6px 0 0;
+    padding: 4px 10px 4px 30px;
+    font: 12px Arial, Helvetica, Verdana, Geneva, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.success_message {
+        background-image: url('../images/success.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    list-style-type: none;
+    color: green !important;
+    background-color: #c5f6c4;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 6px 0 0;
+    padding: 4px 10px 4px 30px;
+    font: 12px Arial, Helvetica, Verdana, Geneva, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
